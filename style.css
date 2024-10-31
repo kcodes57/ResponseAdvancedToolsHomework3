@@ -95,3 +95,27 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+  }
+
+  #introduction {
+    font-size: 20px;
+    text-align: center;
+  }
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  .navigation-links {
+    text-align: center;
+    font-size: 14px;
+    padding: 0;
+  }
+  img {
+    display: none;
+  }
+}
