@@ -115,7 +115,10 @@ p {
     font-size: 14px;
     padding: 0;
   }
-  img {
-    display: none;
+  #contact {
+    margin: 30px 10px;
+  }
+  .email-link {
+    font-size: 18px;
   }
 }
